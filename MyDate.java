@@ -1,4 +1,3 @@
-import java.util.Scanner;
 public class MyDate
 {
 	private int day,month,year;
@@ -29,15 +28,6 @@ public class MyDate
 		MyDate f = new MyDate(10,12,1997);
 		System.out.println(f.day);
 		f.display();
-		System.out.println("Enter Values First date, second month, third year");
-		Scanner myObj = new Scanner(System.in);
-		int date = myObj.nextInt();
-		int month = myObj.nextInt();
-		int year = myObj.nextInt();
-		MyDate e = new MyDate(date,month,year);
-		e.display();
-		MyDate.show();
-
 		System.out.println("Print Using Getter Setter");
 		MyDate g = new MyDate();
 		g.setDay(11);
